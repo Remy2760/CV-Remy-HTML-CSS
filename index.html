@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jhon Doe - Curiculum Vitae</title>
+    <link rel="stylesheet" href="./assets/css/style-start.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
-      <img
-        src="./images/IMG_20231125_153713.jpg"
-        alt="Homme châtin avec des lunettes et un sweet"
-      />
-      <h1>Jhon Doe</h1>
-      <h2>Développeur web junior</h2>
+      <figure>
+        <img
+          id="picture"
+          src="./images/IMG_20231125_153713.jpg"
+          alt="Homme châtin avec des lunettes et un sweet"
+        />
+      </figure>
+      <h1 class="title">Jhon Doe</h1>
+      <h2 class="title">Développeur web junior</h2>
     </header>
     <section>
       <address>
@@ -27,7 +32,7 @@
       </address>
     </section>
     <section>
-      <h3>Expériences professionnelles</h3>
+      <h3 class="title">Expériences professionnelles</h3>
       <p><strong>Agent des remontées mécaniques. SAGETS</strong></p>
       <p>
         Du<time datetime="2022-12-14">14/12/22</time> au
@@ -64,5 +69,74 @@
         <li>Communique avec son environnement de travail</li>
       </ul>
     </section>
+    <section>
+      <h3 class="title">Diplômes/Formation</h3>
+      <p><strong>Formation développeur Web / Web mobile</strong></p>
+      <p>Du <time datetime="2023-09-30">30/09/23</time> au XXX</p>
+      <p>
+        <a href="https://www.centre-europeen-formation.fr/"
+          >Centre européen de formation</a
+        >
+      </p>
+      <p>
+        <strong
+          >Diplômes d'Agent des remontées mécaniques et domaines
+          skiables</strong
+        >
+      </p>
+      <p>Obtention le <time datetime="2023-05-04">04/05/23</time> à Francin</p>
+      <p><strong>CAP électricien bâtiment</strong></p>
+      <p>
+        Obtention le <time datetime="2014-06-30">30/06/14</time> à Lycée Les
+        Fontennelles à Louviers
+      </p>
+    </section>
+    <section>
+      <h3 class="title">Compétences</h3>
+      <ul>
+        <li>HTML 5 - Expert</li>
+        <li>CSS 3 - Intermédiaire</li>
+        <li>GitHub - Débutant</li>
+      </ul>
+    </section>
+    <section>
+      <h3 class="title">A propos</h3>
+      <p>
+        <data value="28">Bonjour, je suis Jhon, j’ai 28 ans</data>, je suis
+        quelqu’un de curieux, ambitieux et autonome.
+      </p>
+    </section>
+    <section>
+      <h3 class="title">Langues parlées</h3>
+      <ul>
+        <li>Français - Langue maternelle</li>
+        <li>Anglais - Intermédiaire</li>
+      </ul>
+    </section>
+    <section>
+      <h3 class="title">Centres d'interêts</h3>
+      <ul>
+        <li>Randonnée</li>
+        <li>Voyages</li>
+        <li>Informatique</li>
+      </ul>
+    </section>
   </body>
+  <footer>
+    <img class="icon" src="./images/linkedin.png" alt="Logo bleu de Linkedin" />
+    <img
+      class="icon"
+      src="./images/twitter.png"
+      alt="Logo d'oiseau blanc sur fond bleu de twitter"
+    />
+    <img
+      class="icon"
+      src="./images/github.png"
+      alt="Logo de chat noir de GitHub"
+    />
+    <small
+      >Dernière mise à jour le
+      <time datetime="2023-11-25">25 Novembre 2023.</time></small
+    >
+  </footer>
 </html>
